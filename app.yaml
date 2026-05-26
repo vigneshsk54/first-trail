@@ -1,0 +1,8 @@
+runtime: python311
+
+handlers:
+- url: /.*
+  script: auto
+
+env_variables:
+  FLASK_ENV: 'production'
